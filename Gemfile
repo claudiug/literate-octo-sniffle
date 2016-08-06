@@ -14,9 +14,11 @@ gem 'multi_json'                    #json library
 group :development, :test do
   gem 'rack-unreloader'
   gem 'guard-minitest'
+
 end
 
 group :test do
+  gem 'minitest-reporters'
   gem 'capybara'
   gem 'minitest-capybara'
   gem 'rack-test'

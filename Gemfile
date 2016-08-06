@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rack_csrf'                     #protect from csrd
+gem 'rack_csrf'                     #protect from csrf
 gem 'tilt', '>= 2'                  #?
 gem 'erubis'                        #?
 gem 'roda'                          # roda web framework

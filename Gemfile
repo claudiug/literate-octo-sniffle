@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.2.2'
 
 gem 'rack_csrf'                     #protect from csrf
 gem 'tilt', '>= 2'                  #?

@@ -7,10 +7,6 @@ App.freeze
 require 'capybara'
 require 'capybara/dsl'
 require 'rack/test'
-include Rack::Test::Methods
 
-def app
-  App
-end
 
 require_relative '../minitest_helper'

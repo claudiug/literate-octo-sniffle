@@ -19,4 +19,13 @@ class Minitest::HooksSpec
       Capybara.use_default_driver
     end
   end
+
+  include Rack::Test::Methods
+  include Capybara::DSL
+
+  Capybara.app = App
+
+  def app
+    App
+  end
 end
